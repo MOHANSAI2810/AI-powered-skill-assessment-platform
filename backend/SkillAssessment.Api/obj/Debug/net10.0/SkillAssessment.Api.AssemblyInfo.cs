@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkillAssessment.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c716f5dff3a469a51eb6cc2188564588897c724")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkillAssessment.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkillAssessment.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

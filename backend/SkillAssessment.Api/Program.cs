@@ -1,13 +1,24 @@
+using Microsoft.EntityFrameworkCore;
+using SkillAssessment.Api.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(
+            builder.Configuration.GetConnectionString("DefaultConnection")
+        )
+    ));
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("ReactApp", policy =>
+    options.AddPolicy("ReactPolicy", policy =>
     {
         policy
-            .WithOrigins("http://localhost:5173")
+            .AllowAnyOrigin()
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
@@ -15,7 +26,9 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-app.UseCors("ReactApp");
+app.UseCors("ReactPolicy");
+
+app.UseAuthorization();
 
 app.MapControllers();
 
