@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "text": "What is React?",
+    "options": [
+      { "id": 1, "text": "A database" },
+      { "id": 2, "text": "A JavaScript library for building user interfaces" },
+      { "id": 3, "text": "A programming language" },
+      { "id": 4, "text": "An operating system" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 2,
+    "text": "Who originally developed React?",
+    "options": [
+      { "id": 1, "text": "Google" },
+      { "id": 2, "text": "Microsoft" },
+      { "id": 3, "text": "Facebook" },
+      { "id": 4, "text": "Amazon" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 3,
+    "text": "Which language is primarily used to write React applications?",
+    "options": [
+      { "id": 1, "text": "Java" },
+      { "id": 2, "text": "C#" },
+      { "id": 3, "text": "JavaScript" },
+      { "id": 4, "text": "Python" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 4,
+    "text": "What is a React component?",
+    "options": [
+      { "id": 1, "text": "A reusable piece of UI" },
+      { "id": 2, "text": "A database table" },
+      { "id": 3, "text": "A CSS file" },
+      { "id": 4, "text": "A server" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 5,
+    "text": "Which syntax is commonly used to write HTML-like elements in React?",
+    "options": [
+      { "id": 1, "text": "XML" },
+      { "id": 2, "text": "JSX" },
+      { "id": 3, "text": "TSQ" },
+      { "id": 4, "text": "HTMLX" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 6,
+    "text": "What does JSX stand for?",
+    "options": [
+      { "id": 1, "text": "JavaScript XML" },
+      { "id": 2, "text": "Java Syntax Extension" },
+      { "id": 3, "text": "JavaScript Extension" },
+      { "id": 4, "text": "JSON XML" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 7,
+    "text": "Which function is commonly used to create a functional React component?",
+    "options": [
+      { "id": 1, "text": "function" },
+      { "id": 2, "text": "component" },
+      { "id": 3, "text": "createComponent" },
+      { "id": 4, "text": "ReactComponent" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 8,
+    "text": "Which hook is used to manage state in a functional component?",
+    "options": [
+      { "id": 1, "text": "useEffect" },
+      { "id": 2, "text": "useState" },
+      { "id": 3, "text": "useContext" },
+      { "id": 4, "text": "useReducerOnly" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 9,
+    "text": "Which hook is commonly used for side effects?",
+    "options": [
+      { "id": 1, "text": "useState" },
+      { "id": 2, "text": "useEffect" },
+      { "id": 3, "text": "useMemo" },
+      { "id": 4, "text": "useRef" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 10,
+    "text": "What does useState return?",
+    "options": [
+      { "id": 1, "text": "A component and a prop" },
+      { "id": 2, "text": "The current state and a function to update it" },
+      { "id": 3, "text": "Only the current state" },
+      { "id": 4, "text": "Only an update function" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 11,
+    "text": "What are props in React?",
+    "options": [
+      { "id": 1, "text": "Properties passed from a parent component to a child component" },
+      { "id": 2, "text": "Database properties" },
+      { "id": 3, "text": "CSS properties only" },
+      { "id": 4, "text": "Server configurations" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 12,
+    "text": "Are React props generally mutable by the receiving component?",
+    "options": [
+      { "id": 1, "text": "Yes, always" },
+      { "id": 2, "text": "No, props are read-only" },
+      { "id": 3, "text": "Only strings can be changed" },
+      { "id": 4, "text": "Only numbers can be changed" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 13,
+    "text": "Which hook is used to access a value from a React context?",
+    "options": [
+      { "id": 1, "text": "useContext" },
+      { "id": 2, "text": "useValue" },
+      { "id": 3, "text": "useProvider" },
+      { "id": 4, "text": "useData" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 14,
+    "text": "What is the purpose of React Context?",
+    "options": [
+      { "id": 1, "text": "To share data across components without passing props through every level" },
+      { "id": 2, "text": "To create SQL tables" },
+      { "id": 3, "text": "To replace JavaScript" },
+      { "id": 4, "text": "To compile CSS" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 15,
+    "text": "Why are keys used when rendering lists in React?",
+    "options": [
+      { "id": 1, "text": "To style list items" },
+      { "id": 2, "text": "To help React identify which items have changed" },
+      { "id": 3, "text": "To encrypt list data" },
+      { "id": 4, "text": "To create database IDs" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 16,
+    "text": "Which JavaScript method is commonly used to render an array of items in JSX?",
+    "options": [
+      { "id": 1, "text": "forEach()" },
+      { "id": 2, "text": "map()" },
+      { "id": 3, "text": "filterOnly()" },
+      { "id": 4, "text": "render()" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 17,
+    "text": "What happens when React state is updated?",
+    "options": [
+      { "id": 1, "text": "The component may re-render" },
+      { "id": 2, "text": "The browser always closes" },
+      { "id": 3, "text": "The database is automatically updated" },
+      { "id": 4, "text": "The application is automatically restarted" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 18,
+    "text": "Which hook can be used to store a mutable value that does not cause a re-render when changed?",
+    "options": [
+      { "id": 1, "text": "useState" },
+      { "id": 2, "text": "useRef" },
+      { "id": 3, "text": "useEffect" },
+      { "id": 4, "text": "useContext" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 19,
+    "text": "What is the Virtual DOM?",
+    "options": [
+      { "id": 1, "text": "A lightweight representation of the UI maintained by React" },
+      { "id": 2, "text": "A physical database" },
+      { "id": 3, "text": "A browser extension" },
+      { "id": 4, "text": "A JavaScript compiler" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 20,
+    "text": "What is reconciliation in React?",
+    "options": [
+      { "id": 1, "text": "The process of determining what needs to change in the UI" },
+      { "id": 2, "text": "The process of creating a database" },
+      { "id": 3, "text": "The process of compiling TypeScript" },
+      { "id": 4, "text": "The process of installing React" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 21,
+    "text": "Which package is commonly used to create a React application with Vite?",
+    "options": [
+      { "id": 1, "text": "create-vite" },
+      { "id": 2, "text": "create-react-server" },
+      { "id": 3, "text": "react-builder" },
+      { "id": 4, "text": "vite-react-only" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 22,
+    "text": "Which command creates a Vite React project?",
+    "options": [
+      { "id": 1, "text": "npm create vite@latest" },
+      { "id": 2, "text": "npm create react@latest" },
+      { "id": 3, "text": "npm install react-project" },
+      { "id": 4, "text": "react new vite" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 23,
+    "text": "Which file is commonly the entry point for a Vite React application?",
+    "options": [
+      { "id": 1, "text": "main.jsx or main.tsx" },
+      { "id": 2, "text": "server.cs" },
+      { "id": 3, "text": "index.cs" },
+      { "id": 4, "text": "app.json" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 24,
+    "text": "Which file commonly contains the main application component in a Vite React project?",
+    "options": [
+      { "id": 1, "text": "App.jsx or App.tsx" },
+      { "id": 2, "text": "Main.cs" },
+      { "id": 3, "text": "React.config" },
+      { "id": 4, "text": "Component.json" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 25,
+    "text": "How can a React component receive data from its parent?",
+    "options": [
+      { "id": 1, "text": "Using props" },
+      { "id": 2, "text": "Using SQL" },
+      { "id": 3, "text": "Using CSS" },
+      { "id": 4, "text": "Using HTML comments" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 26,
+    "text": "What is conditional rendering in React?",
+    "options": [
+      { "id": 1, "text": "Rendering different UI based on a condition" },
+      { "id": 2, "text": "Rendering only CSS" },
+      { "id": 3, "text": "Rendering database tables" },
+      { "id": 4, "text": "Rendering without JavaScript" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 27,
+    "text": "Which operator is commonly used for simple conditional rendering in JSX?",
+    "options": [
+      { "id": 1, "text": "&&" },
+      { "id": 2, "text": "::" },
+      { "id": 3, "text": "==" },
+      { "id": 4, "text": "??=" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 28,
+    "text": "What is a controlled component in React?",
+    "options": [
+      { "id": 1, "text": "A form element whose value is controlled by React state" },
+      { "id": 2, "text": "A component controlled only by CSS" },
+      { "id": 3, "text": "A component controlled by the database" },
+      { "id": 4, "text": "A component that cannot receive props" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 29,
+    "text": "Which event is commonly used to handle changes in a text input?",
+    "options": [
+      { "id": 1, "text": "onChange" },
+      { "id": 2, "text": "onInputOnly" },
+      { "id": 3, "text": "onUpdate" },
+      { "id": 4, "text": "onTextChangeOnly" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 30,
+    "text": "Which event is commonly used when a button is clicked?",
+    "options": [
+      { "id": 1, "text": "onPress" },
+      { "id": 2, "text": "onClick" },
+      { "id": 3, "text": "onButton" },
+      { "id": 4, "text": "onTapOnly" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 31,
+    "text": "Which hook can be used to memoize a calculated value?",
+    "options": [
+      { "id": 1, "text": "useMemo" },
+      { "id": 2, "text": "useState" },
+      { "id": 3, "text": "useEffect" },
+      { "id": 4, "text": "useContext" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 32,
+    "text": "Which hook can be used to memoize a function?",
+    "options": [
+      { "id": 1, "text": "useCallback" },
+      { "id": 2, "text": "useFunction" },
+      { "id": 3, "text": "useMemoFunction" },
+      { "id": 4, "text": "useHandler" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 33,
+    "text": "What is the purpose of useEffect dependency array?",
+    "options": [
+      { "id": 1, "text": "It determines when the effect should run" },
+      { "id": 2, "text": "It creates a database" },
+      { "id": 3, "text": "It defines CSS classes" },
+      { "id": 4, "text": "It creates React components" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 34,
+    "text": "What does an empty dependency array in useEffect generally mean?",
+    "options": [
+      { "id": 1, "text": "The effect runs after every render" },
+      { "id": 2, "text": "The effect does not run" },
+      { "id": 3, "text": "The effect generally runs after the initial mount" },
+      { "id": 4, "text": "The effect runs only when the user clicks" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 35,
+    "text": "What is lifting state up in React?",
+    "options": [
+      { "id": 1, "text": "Moving shared state to the closest common parent" },
+      { "id": 2, "text": "Moving state into the database" },
+      { "id": 3, "text": "Deleting component state" },
+      { "id": 4, "text": "Moving state into CSS" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 36,
+    "text": "What is a fragment in React?",
+    "options": [
+      { "id": 1, "text": "A way to group elements without adding an extra DOM element" },
+      { "id": 2, "text": "A database fragment" },
+      { "id": 3, "text": "A CSS component" },
+      { "id": 4, "text": "A server-side component" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 37,
+    "text": "Which syntax can be used for a React Fragment?",
+    "options": [
+      { "id": 1, "text": "<>" },
+      { "id": 2, "text": "{}" },
+      { "id": 3, "text": "[]" },
+      { "id": 4, "text": "()" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 38,
+    "text": "What is React Router commonly used for?",
+    "options": [
+      { "id": 1, "text": "Client-side navigation and routing" },
+      { "id": 2, "text": "Database management" },
+      { "id": 3, "text": "CSS compilation" },
+      { "id": 4, "text": "Backend authentication only" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 39,
+    "text": "Which HTTP client can commonly be used in a React application to call an API?",
+    "options": [
+      { "id": 1, "text": "fetch" },
+      { "id": 2, "text": "Console" },
+      { "id": 3, "text": "ReactSQL" },
+      { "id": 4, "text": "JSHttpOnly" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 40,
+    "text": "What is the purpose of npm in a React project?",
+    "options": [
+      { "id": 1, "text": "Managing packages and running project scripts" },
+      { "id": 2, "text": "Creating SQL databases" },
+      { "id": 3, "text": "Replacing JavaScript" },
+      { "id": 4, "text": "Hosting React automatically" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 41,
+    "text": "Which file lists dependencies and scripts for a typical npm project?",
+    "options": [
+      { "id": 1, "text": "package.json" },
+      { "id": 2, "text": "project.json" },
+      { "id": 3, "text": "dependencies.json" },
+      { "id": 4, "text": "npm.config" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 42,
+    "text": "What is TypeScript commonly used for in React applications?",
+    "options": [
+      { "id": 1, "text": "Adding static typing to JavaScript development" },
+      { "id": 2, "text": "Replacing HTML" },
+      { "id": 3, "text": "Creating SQL tables" },
+      { "id": 4, "text": "Running the backend server" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 43,
+    "text": "Which file extension is commonly used for React components containing TypeScript and JSX?",
+    "options": [
+      { "id": 1, "text": ".jsx" },
+      { "id": 2, "text": ".tsx" },
+      { "id": 3, "text": ".tsjsx" },
+      { "id": 4, "text": ".react" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 44,
+    "text": "What is prop drilling?",
+    "options": [
+      { "id": 1, "text": "Passing props through multiple component levels to reach a deeply nested component" },
+      { "id": 2, "text": "Deleting props" },
+      { "id": 3, "text": "Using props inside CSS" },
+      { "id": 4, "text": "Passing props to a database" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 45,
+    "text": "Which hook is useful for managing more complex state logic?",
+    "options": [
+      { "id": 1, "text": "useReducer" },
+      { "id": 2, "text": "useComplexState" },
+      { "id": 3, "text": "useLogic" },
+      { "id": 4, "text": "useStateReducerOnly" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 46,
+    "text": "What is a custom hook in React?",
+    "options": [
+      { "id": 1, "text": "A reusable function that uses React hooks" },
+      { "id": 2, "text": "A custom HTML tag only" },
+      { "id": 3, "text": "A database procedure" },
+      { "id": 4, "text": "A CSS class" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 47,
+    "text": "What naming convention is commonly used for custom React hooks?",
+    "options": [
+      { "id": 1, "text": "They start with use" },
+      { "id": 2, "text": "They start with hook" },
+      { "id": 3, "text": "They end with react" },
+      { "id": 4, "text": "They must start with React" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 48,
+    "text": "What is the purpose of React.memo?",
+    "options": [
+      { "id": 1, "text": "To memoize a component and potentially skip unnecessary re-renders" },
+      { "id": 2, "text": "To create state" },
+      { "id": 3, "text": "To create routes" },
+      { "id": 4, "text": "To make API requests" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 49,
+    "text": "What should be used instead of directly modifying React state?",
+    "options": [
+      { "id": 1, "text": "The state setter function" },
+      { "id": 2, "text": "The DOM API only" },
+      { "id": 3, "text": "A CSS selector" },
+      { "id": 4, "text": "The console" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 50,
+    "text": "What is the main benefit of component-based architecture in React?",
+    "options": [
+      { "id": 1, "text": "It promotes reusable and maintainable UI components" },
+      { "id": 2, "text": "It removes the need for JavaScript" },
+      { "id": 3, "text": "It automatically creates a database" },
+      { "id": 4, "text": "It eliminates the need for a browser" }
+    ],
+    "correctOptionId": 1
+  }
+]

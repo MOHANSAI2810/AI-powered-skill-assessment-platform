@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "text": "What does CPU stand for?",
+    "options": [
+      { "id": 1, "text": "Central Processing Unit" },
+      { "id": 2, "text": "Computer Personal Unit" },
+      { "id": 3, "text": "Central Program Utility" },
+      { "id": 4, "text": "Computer Processing Utility" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 2,
+    "text": "Which component is known as the brain of the computer?",
+    "options": [
+      { "id": 1, "text": "RAM" },
+      { "id": 2, "text": "CPU" },
+      { "id": 3, "text": "Hard Disk" },
+      { "id": 4, "text": "Monitor" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 3,
+    "text": "What does RAM stand for?",
+    "options": [
+      { "id": 1, "text": "Random Access Memory" },
+      { "id": 2, "text": "Read Access Memory" },
+      { "id": 3, "text": "Rapid Access Module" },
+      { "id": 4, "text": "Random Application Memory" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 4,
+    "text": "Which type of memory is volatile?",
+    "options": [
+      { "id": 1, "text": "ROM" },
+      { "id": 2, "text": "RAM" },
+      { "id": 3, "text": "Hard Disk" },
+      { "id": 4, "text": "SSD" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 5,
+    "text": "What is the smallest unit of data in a computer?",
+    "options": [
+      { "id": 1, "text": "Byte" },
+      { "id": 2, "text": "Bit" },
+      { "id": 3, "text": "Kilobyte" },
+      { "id": 4, "text": "Nibble" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 6,
+    "text": "How many bits are there in one byte?",
+    "options": [
+      { "id": 1, "text": "4" },
+      { "id": 2, "text": "8" },
+      { "id": 3, "text": "16" },
+      { "id": 4, "text": "32" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 7,
+    "text": "Which number system uses only 0 and 1?",
+    "options": [
+      { "id": 1, "text": "Decimal" },
+      { "id": 2, "text": "Hexadecimal" },
+      { "id": 3, "text": "Binary" },
+      { "id": 4, "text": "Octal" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 8,
+    "text": "What is the decimal value of binary 1010?",
+    "options": [
+      { "id": 1, "text": "8" },
+      { "id": 2, "text": "10" },
+      { "id": 3, "text": "12" },
+      { "id": 4, "text": "14" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 9,
+    "text": "Which device is primarily used to store data permanently?",
+    "options": [
+      { "id": 1, "text": "RAM" },
+      { "id": 2, "text": "CPU" },
+      { "id": 3, "text": "SSD" },
+      { "id": 4, "text": "Cache" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 10,
+    "text": "What is an operating system?",
+    "options": [
+      { "id": 1, "text": "A hardware device" },
+      { "id": 2, "text": "System software that manages computer resources" },
+      { "id": 3, "text": "A programming language" },
+      { "id": 4, "text": "A database" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 11,
+    "text": "Which of the following is an operating system?",
+    "options": [
+      { "id": 1, "text": "Linux" },
+      { "id": 2, "text": "MySQL" },
+      { "id": 3, "text": "HTML" },
+      { "id": 4, "text": "Python" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 12,
+    "text": "What is a process?",
+    "options": [
+      { "id": 1, "text": "A program in execution" },
+      { "id": 2, "text": "A file stored on disk" },
+      { "id": 3, "text": "A hardware component" },
+      { "id": 4, "text": "A network cable" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 13,
+    "text": "What is a thread?",
+    "options": [
+      { "id": 1, "text": "A type of database" },
+      { "id": 2, "text": "The smallest unit of execution within a process" },
+      { "id": 3, "text": "A hardware device" },
+      { "id": 4, "text": "A programming language" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 14,
+    "text": "Which scheduling algorithm executes processes in the order they arrive?",
+    "options": [
+      { "id": 1, "text": "Round Robin" },
+      { "id": 2, "text": "First Come First Served" },
+      { "id": 3, "text": "Shortest Job First" },
+      { "id": 4, "text": "Priority Scheduling" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 15,
+    "text": "What is deadlock?",
+    "options": [
+      { "id": 1, "text": "A system shutdown" },
+      { "id": 2, "text": "A situation where processes wait indefinitely for resources" },
+      { "id": 3, "text": "A memory optimization technique" },
+      { "id": 4, "text": "A type of CPU" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 16,
+    "text": "Which data structure follows LIFO?",
+    "options": [
+      { "id": 1, "text": "Queue" },
+      { "id": 2, "text": "Stack" },
+      { "id": 3, "text": "Array" },
+      { "id": 4, "text": "Linked List" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 17,
+    "text": "Which data structure follows FIFO?",
+    "options": [
+      { "id": 1, "text": "Stack" },
+      { "id": 2, "text": "Queue" },
+      { "id": 3, "text": "Tree" },
+      { "id": 4, "text": "Graph" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 18,
+    "text": "What is the time complexity of accessing an element by index in an array?",
+    "options": [
+      { "id": 1, "text": "O(1)" },
+      { "id": 2, "text": "O(n)" },
+      { "id": 3, "text": "O(log n)" },
+      { "id": 4, "text": "O(n²)" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 19,
+    "text": "What is the worst-case time complexity of linear search?",
+    "options": [
+      { "id": 1, "text": "O(1)" },
+      { "id": 2, "text": "O(log n)" },
+      { "id": 3, "text": "O(n)" },
+      { "id": 4, "text": "O(n²)" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 20,
+    "text": "What is the typical time complexity of binary search on a sorted array?",
+    "options": [
+      { "id": 1, "text": "O(n)" },
+      { "id": 2, "text": "O(n²)" },
+      { "id": 3, "text": "O(log n)" },
+      { "id": 4, "text": "O(1)" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 21,
+    "text": "Which data structure stores elements in nodes connected by links?",
+    "options": [
+      { "id": 1, "text": "Array" },
+      { "id": 2, "text": "Linked List" },
+      { "id": 3, "text": "Stack" },
+      { "id": 4, "text": "Hash Table" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 22,
+    "text": "Which data structure represents hierarchical relationships?",
+    "options": [
+      { "id": 1, "text": "Tree" },
+      { "id": 2, "text": "Stack" },
+      { "id": 3, "text": "Queue" },
+      { "id": 4, "text": "Array" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 23,
+    "text": "Which data structure is commonly used to represent network connections?",
+    "options": [
+      { "id": 1, "text": "Graph" },
+      { "id": 2, "text": "Stack" },
+      { "id": 3, "text": "Array" },
+      { "id": 4, "text": "Queue" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 24,
+    "text": "What is an algorithm?",
+    "options": [
+      { "id": 1, "text": "A programming language" },
+      { "id": 2, "text": "A step-by-step procedure for solving a problem" },
+      { "id": 3, "text": "A computer component" },
+      { "id": 4, "text": "A database table" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 25,
+    "text": "What does Big O notation describe?",
+    "options": [
+      { "id": 1, "text": "Program appearance" },
+      { "id": 2, "text": "Algorithm performance as input size grows" },
+      { "id": 3, "text": "Memory capacity only" },
+      { "id": 4, "text": "Programming syntax" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 26,
+    "text": "Which sorting algorithm repeatedly swaps adjacent elements when they are in the wrong order?",
+    "options": [
+      { "id": 1, "text": "Merge Sort" },
+      { "id": 2, "text": "Bubble Sort" },
+      { "id": 3, "text": "Binary Search" },
+      { "id": 4, "text": "Quick Sort" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 27,
+    "text": "What is a database?",
+    "options": [
+      { "id": 1, "text": "A collection of organized data" },
+      { "id": 2, "text": "A programming language" },
+      { "id": 3, "text": "A CPU component" },
+      { "id": 4, "text": "An operating system" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 28,
+    "text": "What does SQL stand for?",
+    "options": [
+      { "id": 1, "text": "Structured Query Language" },
+      { "id": 2, "text": "Simple Query Logic" },
+      { "id": 3, "text": "System Query Language" },
+      { "id": 4, "text": "Structured Question Language" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 29,
+    "text": "Which SQL command is used to retrieve data?",
+    "options": [
+      { "id": 1, "text": "INSERT" },
+      { "id": 2, "text": "UPDATE" },
+      { "id": 3, "text": "SELECT" },
+      { "id": 4, "text": "DELETE" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 30,
+    "text": "Which SQL command is used to add new records?",
+    "options": [
+      { "id": 1, "text": "INSERT" },
+      { "id": 2, "text": "SELECT" },
+      { "id": 3, "text": "CREATE" },
+      { "id": 4, "text": "ALTER" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 31,
+    "text": "What is a primary key?",
+    "options": [
+      { "id": 1, "text": "A column that uniquely identifies each row" },
+      { "id": 2, "text": "A column containing duplicate values" },
+      { "id": 3, "text": "A temporary table" },
+      { "id": 4, "text": "A database password" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 32,
+    "text": "What is a foreign key?",
+    "options": [
+      { "id": 1, "text": "A key used to encrypt data" },
+      { "id": 2, "text": "A column that references a key in another table" },
+      { "id": 3, "text": "A password for a database" },
+      { "id": 4, "text": "A duplicate primary key" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 33,
+    "text": "What is normalization in databases?",
+    "options": [
+      { "id": 1, "text": "Increasing duplicate data" },
+      { "id": 2, "text": "Organizing data to reduce redundancy" },
+      { "id": 3, "text": "Deleting all tables" },
+      { "id": 4, "text": "Encrypting a database" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 34,
+    "text": "What does DBMS stand for?",
+    "options": [
+      { "id": 1, "text": "Database Management System" },
+      { "id": 2, "text": "Data Backup Management Service" },
+      { "id": 3, "text": "Database Memory System" },
+      { "id": 4, "text": "Data Business Management System" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 35,
+    "text": "What is a computer network?",
+    "options": [
+      { "id": 1, "text": "A collection of connected computers and devices" },
+      { "id": 2, "text": "A single computer" },
+      { "id": 3, "text": "A programming language" },
+      { "id": 4, "text": "A database table" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 36,
+    "text": "What does IP stand for in networking?",
+    "options": [
+      { "id": 1, "text": "Internet Protocol" },
+      { "id": 2, "text": "Internet Program" },
+      { "id": 3, "text": "Internal Process" },
+      { "id": 4, "text": "Internet Port" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 37,
+    "text": "Which protocol is commonly used to transfer web pages?",
+    "options": [
+      { "id": 1, "text": "HTTP" },
+      { "id": 2, "text": "FTP" },
+      { "id": 3, "text": "SMTP" },
+      { "id": 4, "text": "SSH" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 38,
+    "text": "What is the purpose of DNS?",
+    "options": [
+      { "id": 1, "text": "To translate domain names into IP addresses" },
+      { "id": 2, "text": "To store passwords" },
+      { "id": 3, "text": "To compile programs" },
+      { "id": 4, "text": "To manage RAM" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 39,
+    "text": "Which protocol is commonly used for secure web communication?",
+    "options": [
+      { "id": 1, "text": "HTTP" },
+      { "id": 2, "text": "HTTPS" },
+      { "id": 3, "text": "FTP" },
+      { "id": 4, "text": "SMTP" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 40,
+    "text": "What is an IP address?",
+    "options": [
+      { "id": 1, "text": "A unique address used to identify a device on a network" },
+      { "id": 2, "text": "A programming language" },
+      { "id": 3, "text": "A type of database" },
+      { "id": 4, "text": "A computer password" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 41,
+    "text": "What is object-oriented programming?",
+    "options": [
+      { "id": 1, "text": "A programming approach based on objects and classes" },
+      { "id": 2, "text": "A database system" },
+      { "id": 3, "text": "A networking protocol" },
+      { "id": 4, "text": "A computer operating system" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 42,
+    "text": "Which concept hides internal implementation details?",
+    "options": [
+      { "id": 1, "text": "Encapsulation" },
+      { "id": 2, "text": "Inheritance" },
+      { "id": 3, "text": "Polymorphism" },
+      { "id": 4, "text": "Compilation" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 43,
+    "text": "What is inheritance?",
+    "options": [
+      { "id": 1, "text": "A class acquiring properties and behavior from another class" },
+      { "id": 2, "text": "Deleting an object" },
+      { "id": 3, "text": "Converting source code to machine code" },
+      { "id": 4, "text": "Creating a database" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 44,
+    "text": "What is polymorphism?",
+    "options": [
+      { "id": 1, "text": "The ability of an object or method to take different forms" },
+      { "id": 2, "text": "The process of storing data" },
+      { "id": 3, "text": "A type of memory" },
+      { "id": 4, "text": "A networking protocol" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 45,
+    "text": "What is a compiler?",
+    "options": [
+      { "id": 1, "text": "A program that translates source code into another form that can be executed" },
+      { "id": 2, "text": "A database server" },
+      { "id": 3, "text": "A network device" },
+      { "id": 4, "text": "A text editor only" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 46,
+    "text": "What is an interpreter?",
+    "options": [
+      { "id": 1, "text": "A program that executes or translates code during execution" },
+      { "id": 2, "text": "A database table" },
+      { "id": 3, "text": "A storage device" },
+      { "id": 4, "text": "A network protocol" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 47,
+    "text": "What is an API?",
+    "options": [
+      { "id": 1, "text": "A set of rules and interfaces that allow software systems to communicate" },
+      { "id": 2, "text": "A type of CPU" },
+      { "id": 3, "text": "A database table" },
+      { "id": 4, "text": "A computer virus" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 48,
+    "text": "What does HTTP status code 404 usually mean?",
+    "options": [
+      { "id": 1, "text": "Success" },
+      { "id": 2, "text": "Unauthorized" },
+      { "id": 3, "text": "Resource not found" },
+      { "id": 4, "text": "Server started" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 49,
+    "text": "What does HTTP status code 200 usually indicate?",
+    "options": [
+      { "id": 1, "text": "Successful request" },
+      { "id": 2, "text": "Not found" },
+      { "id": 3, "text": "Server error" },
+      { "id": 4, "text": "Unauthorized request" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 50,
+    "text": "What is version control used for?",
+    "options": [
+      { "id": 1, "text": "Tracking and managing changes to source code" },
+      { "id": 2, "text": "Increasing CPU speed" },
+      { "id": 3, "text": "Creating RAM" },
+      { "id": 4, "text": "Connecting a monitor" }
+    ],
+    "correctOptionId": 1
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EYGxjfB29Pw=",
+  "success": true,
+  "projectFilePath": "D:\\AI powered skill assessment platform\\backend\\SkillAssessment.Api\\SkillAssessment.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mohanasai.pushadapu\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "C:\\Users\\mohanasai.pushadapu\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}
