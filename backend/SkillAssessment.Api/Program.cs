@@ -41,7 +41,7 @@ else
 // Hardcode the MySQL server version.
 // DO NOT use ServerVersion.AutoDetect() — it opens a new
 // connection per request and exhausts free-tier connection
-// limits (this was the cause of the max_user_connections error).
+// limits.
 // ---------------------------------------------------------
 
 var serverVersion = new MySqlServerVersion(new Version(8, 0, 36));
@@ -60,6 +60,15 @@ builder.Services.AddCors(options =>
     });
 });
 
+// ---------------------------------------------------------
+// Bind to PORT (must be done BEFORE builder.Build()).
+// MonsterASP/Render/Clever Cloud inject PORT; locally it
+// defaults to 5195.
+// ---------------------------------------------------------
+
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5195";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+
 var app = builder.Build();
 
 app.UseCors("ReactPolicy");
@@ -67,10 +76,5 @@ app.UseCors("ReactPolicy");
 app.UseAuthorization();
 
 app.MapControllers();
-
-// Clever Cloud / Aiven / Render inject PORT; bind to 0.0.0.0
-var port = Environment.GetEnvironmentVariable("PORT") ?? "5195";
-app.Urls.Clear();
-app.Urls.Add($"http://0.0.0.0:{port}");
 
 app.Run();
