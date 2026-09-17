@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "text": "Find the next number: 2, 4, 8, 16, ?",
+    "options": [
+      { "id": 1, "text": "24" },
+      { "id": 2, "text": "30" },
+      { "id": 3, "text": "32" },
+      { "id": 4, "text": "36" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 2,
+    "text": "Find the next number: 3, 6, 12, 24, ?",
+    "options": [
+      { "id": 1, "text": "36" },
+      { "id": 2, "text": "42" },
+      { "id": 3, "text": "48" },
+      { "id": 4, "text": "54" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 3,
+    "text": "Find the next number: 5, 10, 15, 20, ?",
+    "options": [
+      { "id": 1, "text": "22" },
+      { "id": 2, "text": "25" },
+      { "id": 3, "text": "30" },
+      { "id": 4, "text": "35" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 4,
+    "text": "Find the next number: 1, 4, 9, 16, ?",
+    "options": [
+      { "id": 1, "text": "20" },
+      { "id": 2, "text": "24" },
+      { "id": 3, "text": "25" },
+      { "id": 4, "text": "36" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 5,
+    "text": "Find the next number: 2, 6, 12, 20, ?",
+    "options": [
+      { "id": 1, "text": "28" },
+      { "id": 2, "text": "30" },
+      { "id": 3, "text": "32" },
+      { "id": 4, "text": "36" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 6,
+    "text": "Find the odd one out.",
+    "options": [
+      { "id": 1, "text": "Apple" },
+      { "id": 2, "text": "Mango" },
+      { "id": 3, "text": "Carrot" },
+      { "id": 4, "text": "Banana" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 7,
+    "text": "Find the odd one out.",
+    "options": [
+      { "id": 1, "text": "Dog" },
+      { "id": 2, "text": "Cat" },
+      { "id": 3, "text": "Cow" },
+      { "id": 4, "text": "Rose" }
+    ],
+    "correctOptionId": 4
+  },
+  {
+    "id": 8,
+    "text": "Find the odd one out.",
+    "options": [
+      { "id": 1, "text": "Square" },
+      { "id": 2, "text": "Triangle" },
+      { "id": 3, "text": "Circle" },
+      { "id": 4, "text": "Table" }
+    ],
+    "correctOptionId": 4
+  },
+  {
+    "id": 9,
+    "text": "Book is to Reading as Fork is to ?",
+    "options": [
+      { "id": 1, "text": "Writing" },
+      { "id": 2, "text": "Eating" },
+      { "id": 3, "text": "Sleeping" },
+      { "id": 4, "text": "Running" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 10,
+    "text": "Bird is to Fly as Fish is to ?",
+    "options": [
+      { "id": 1, "text": "Walk" },
+      { "id": 2, "text": "Run" },
+      { "id": 3, "text": "Swim" },
+      { "id": 4, "text": "Jump" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 11,
+    "text": "Doctor is to Hospital as Teacher is to ?",
+    "options": [
+      { "id": 1, "text": "Bank" },
+      { "id": 2, "text": "School" },
+      { "id": 3, "text": "Market" },
+      { "id": 4, "text": "Court" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 12,
+    "text": "Puppy is to Dog as Kitten is to ?",
+    "options": [
+      { "id": 1, "text": "Horse" },
+      { "id": 2, "text": "Cat" },
+      { "id": 3, "text": "Cow" },
+      { "id": 4, "text": "Goat" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 13,
+    "text": "If CAT is coded as DBU, how is DOG coded?",
+    "options": [
+      { "id": 1, "text": "EPH" },
+      { "id": 2, "text": "EOH" },
+      { "id": 3, "text": "DPG" },
+      { "id": 4, "text": "FPH" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 14,
+    "text": "If APPLE is coded as BQQMF, how is MANGO coded?",
+    "options": [
+      { "id": 1, "text": "NBOHP" },
+      { "id": 2, "text": "NBMHP" },
+      { "id": 3, "text": "NCPHP" },
+      { "id": 4, "text": "MBOHP" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 15,
+    "text": "If SUN is coded as TVO, how is MOON coded?",
+    "options": [
+      { "id": 1, "text": "NPPO" },
+      { "id": 2, "text": "NQPO" },
+      { "id": 3, "text": "MPPO" },
+      { "id": 4, "text": "NOPO" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 16,
+    "text": "If A = 1, B = 2, C = 3, what is the value of CAB?",
+    "options": [
+      { "id": 1, "text": "5" },
+      { "id": 2, "text": "6" },
+      { "id": 3, "text": "7" },
+      { "id": 4, "text": "8" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 17,
+    "text": "If all roses are flowers and some flowers are red, which statement is definitely true?",
+    "options": [
+      { "id": 1, "text": "All roses are red" },
+      { "id": 2, "text": "Some roses are red" },
+      { "id": 3, "text": "All roses are flowers" },
+      { "id": 4, "text": "No flowers are roses" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 18,
+    "text": "If all cats are animals and all animals need food, which conclusion follows?",
+    "options": [
+      { "id": 1, "text": "All cats need food" },
+      { "id": 2, "text": "No cats need food" },
+      { "id": 3, "text": "Some animals are not cats" },
+      { "id": 4, "text": "All food is cats" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 19,
+    "text": "A is taller than B. B is taller than C. Who is the shortest?",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "Cannot be determined" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 20,
+    "text": "Ravi is older than Amit but younger than Suresh. Who is the oldest?",
+    "options": [
+      { "id": 1, "text": "Ravi" },
+      { "id": 2, "text": "Amit" },
+      { "id": 3, "text": "Suresh" },
+      { "id": 4, "text": "Cannot be determined" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 21,
+    "text": "A person walks 5 km north and then 5 km south. Where is the person relative to the starting point?",
+    "options": [
+      { "id": 1, "text": "5 km north" },
+      { "id": 2, "text": "5 km south" },
+      { "id": 3, "text": "At the starting point" },
+      { "id": 4, "text": "10 km north" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 22,
+    "text": "A person faces north and turns right. Which direction is the person facing?",
+    "options": [
+      { "id": 1, "text": "South" },
+      { "id": 2, "text": "East" },
+      { "id": 3, "text": "West" },
+      { "id": 4, "text": "North" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 23,
+    "text": "A person faces east and turns left. Which direction is the person facing?",
+    "options": [
+      { "id": 1, "text": "North" },
+      { "id": 2, "text": "South" },
+      { "id": 3, "text": "West" },
+      { "id": 4, "text": "East" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 24,
+    "text": "A person faces south and turns right. Which direction is the person facing?",
+    "options": [
+      { "id": 1, "text": "East" },
+      { "id": 2, "text": "West" },
+      { "id": 3, "text": "North" },
+      { "id": 4, "text": "South" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 25,
+    "text": "If today is Monday, what day will it be after 15 days?",
+    "options": [
+      { "id": 1, "text": "Monday" },
+      { "id": 2, "text": "Tuesday" },
+      { "id": 3, "text": "Wednesday" },
+      { "id": 4, "text": "Thursday" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 26,
+    "text": "If yesterday was Friday, what day is tomorrow?",
+    "options": [
+      { "id": 1, "text": "Saturday" },
+      { "id": 2, "text": "Sunday" },
+      { "id": 3, "text": "Monday" },
+      { "id": 4, "text": "Thursday" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 27,
+    "text": "Which number is missing? 4, 8, 12, ?, 20",
+    "options": [
+      { "id": 1, "text": "14" },
+      { "id": 2, "text": "15" },
+      { "id": 3, "text": "16" },
+      { "id": 4, "text": "18" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 28,
+    "text": "Which number is missing? 100, 90, 80, ?, 60",
+    "options": [
+      { "id": 1, "text": "65" },
+      { "id": 2, "text": "70" },
+      { "id": 3, "text": "75" },
+      { "id": 4, "text": "85" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 29,
+    "text": "Find the next letter: A, C, E, G, ?",
+    "options": [
+      { "id": 1, "text": "H" },
+      { "id": 2, "text": "I" },
+      { "id": 3, "text": "J" },
+      { "id": 4, "text": "K" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 30,
+    "text": "Find the next letter: B, D, G, K, ?",
+    "options": [
+      { "id": 1, "text": "N" },
+      { "id": 2, "text": "O" },
+      { "id": 3, "text": "P" },
+      { "id": 4, "text": "Q" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 31,
+    "text": "Which word comes first alphabetically?",
+    "options": [
+      { "id": 1, "text": "Banana" },
+      { "id": 2, "text": "Apple" },
+      { "id": 3, "text": "Mango" },
+      { "id": 4, "text": "Orange" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 32,
+    "text": "Which word comes last alphabetically?",
+    "options": [
+      { "id": 1, "text": "Apple" },
+      { "id": 2, "text": "Banana" },
+      { "id": 3, "text": "Mango" },
+      { "id": 4, "text": "Orange" }
+    ],
+    "correctOptionId": 4
+  },
+  {
+    "id": 33,
+    "text": "If P is the brother of Q and Q is the sister of R, how is P related to R?",
+    "options": [
+      { "id": 1, "text": "Brother" },
+      { "id": 2, "text": "Sister" },
+      { "id": 3, "text": "Father" },
+      { "id": 4, "text": "Uncle" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 34,
+    "text": "A is the father of B. B is the father of C. How is A related to C?",
+    "options": [
+      { "id": 1, "text": "Father" },
+      { "id": 2, "text": "Brother" },
+      { "id": 3, "text": "Grandfather" },
+      { "id": 4, "text": "Uncle" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 35,
+    "text": "M is the mother of N. N is the sister of O. How is M related to O?",
+    "options": [
+      { "id": 1, "text": "Mother" },
+      { "id": 2, "text": "Sister" },
+      { "id": 3, "text": "Aunt" },
+      { "id": 4, "text": "Grandmother" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 36,
+    "text": "Five people A, B, C, D and E stand in a line. A is before B, B is before C, C is before D, and D is before E. Who is in the middle?",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "D" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 37,
+    "text": "If P is taller than Q and R, and Q is taller than R, who is the shortest?",
+    "options": [
+      { "id": 1, "text": "P" },
+      { "id": 2, "text": "Q" },
+      { "id": 3, "text": "R" },
+      { "id": 4, "text": "Cannot be determined" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 38,
+    "text": "A clock shows 3:00. What is the angle between the hour and minute hands?",
+    "options": [
+      { "id": 1, "text": "45 degrees" },
+      { "id": 2, "text": "60 degrees" },
+      { "id": 3, "text": "90 degrees" },
+      { "id": 4, "text": "180 degrees" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 39,
+    "text": "A clock shows 6:00. What is the angle between the hour and minute hands?",
+    "options": [
+      { "id": 1, "text": "90 degrees" },
+      { "id": 2, "text": "120 degrees" },
+      { "id": 3, "text": "180 degrees" },
+      { "id": 4, "text": "360 degrees" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 40,
+    "text": "If all squares are rectangles, which statement is definitely true?",
+    "options": [
+      { "id": 1, "text": "Every rectangle is a square" },
+      { "id": 2, "text": "Every square is a rectangle" },
+      { "id": 3, "text": "No square is a rectangle" },
+      { "id": 4, "text": "Some rectangles cannot have four sides" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 41,
+    "text": "If some students are athletes and all athletes are fit, which conclusion is valid?",
+    "options": [
+      { "id": 1, "text": "Some students are fit" },
+      { "id": 2, "text": "All students are fit" },
+      { "id": 3, "text": "No students are fit" },
+      { "id": 4, "text": "All fit people are students" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 42,
+    "text": "Which number does not belong in the group?",
+    "options": [
+      { "id": 1, "text": "2" },
+      { "id": 2, "text": "4" },
+      { "id": 3, "text": "8" },
+      { "id": 4, "text": "18" }
+    ],
+    "correctOptionId": 4
+  },
+  {
+    "id": 43,
+    "text": "Find the next number: 81, 27, 9, 3, ?",
+    "options": [
+      { "id": 1, "text": "0" },
+      { "id": 2, "text": "1" },
+      { "id": 3, "text": "2" },
+      { "id": 4, "text": "6" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 44,
+    "text": "Find the next number: 1, 1, 2, 3, 5, 8, ?",
+    "options": [
+      { "id": 1, "text": "11" },
+      { "id": 2, "text": "12" },
+      { "id": 3, "text": "13" },
+      { "id": 4, "text": "15" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 45,
+    "text": "If 2 + 3 = 10 and 3 + 4 = 21 according to a pattern, what is 4 + 5?",
+    "options": [
+      { "id": 1, "text": "32" },
+      { "id": 2, "text": "36" },
+      { "id": 3, "text": "40" },
+      { "id": 4, "text": "45" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 46,
+    "text": "A man is facing west. He turns 90 degrees clockwise. Which direction is he facing?",
+    "options": [
+      { "id": 1, "text": "North" },
+      { "id": 2, "text": "South" },
+      { "id": 3, "text": "East" },
+      { "id": 4, "text": "West" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 47,
+    "text": "If the letters in the word 'COMPUTER' are arranged alphabetically, which letter comes first?",
+    "options": [
+      { "id": 1, "text": "C" },
+      { "id": 2, "text": "E" },
+      { "id": 3, "text": "M" },
+      { "id": 4, "text": "O" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 48,
+    "text": "If the letters in the word 'REASONING' are arranged alphabetically, which letter comes last?",
+    "options": [
+      { "id": 1, "text": "R" },
+      { "id": 2, "text": "S" },
+      { "id": 3, "text": "N" },
+      { "id": 4, "text": "G" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 49,
+    "text": "A is sitting to the left of B. C is sitting to the right of B. Who is in the middle?",
+    "options": [
+      { "id": 1, "text": "A" },
+      { "id": 2, "text": "B" },
+      { "id": 3, "text": "C" },
+      { "id": 4, "text": "Cannot be determined" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 50,
+    "text": "Find the next number: 7, 14, 28, 56, ?",
+    "options": [
+      { "id": 1, "text": "84" },
+      { "id": 2, "text": "98" },
+      { "id": 3, "text": "112" },
+      { "id": 4, "text": "120" }
+    ],
+    "correctOptionId": 3
+  }
+]

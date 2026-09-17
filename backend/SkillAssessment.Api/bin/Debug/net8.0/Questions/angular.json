@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "text": "What is Angular?",
+    "options": [
+      { "id": 1, "text": "A database" },
+      { "id": 2, "text": "A TypeScript-based web application framework" },
+      { "id": 3, "text": "A programming language" },
+      { "id": 4, "text": "An operating system" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 2,
+    "text": "Which company develops Angular?",
+    "options": [
+      { "id": 1, "text": "Microsoft" },
+      { "id": 2, "text": "Google" },
+      { "id": 3, "text": "Meta" },
+      { "id": 4, "text": "Amazon" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 3,
+    "text": "Which language is primarily used for Angular development?",
+    "options": [
+      { "id": 1, "text": "C#" },
+      { "id": 2, "text": "Python" },
+      { "id": 3, "text": "TypeScript" },
+      { "id": 4, "text": "Java" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 4,
+    "text": "Which tool is commonly used to create and manage Angular applications?",
+    "options": [
+      { "id": 1, "text": "Angular CLI" },
+      { "id": 2, "text": "React CLI" },
+      { "id": 3, "text": "Dotnet CLI" },
+      { "id": 4, "text": "Java CLI" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 5,
+    "text": "Which command creates a new Angular application?",
+    "options": [
+      { "id": 1, "text": "ng create app-name" },
+      { "id": 2, "text": "ng new app-name" },
+      { "id": 3, "text": "angular new app-name" },
+      { "id": 4, "text": "npm angular app-name" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 6,
+    "text": "Which command starts an Angular development server?",
+    "options": [
+      { "id": 1, "text": "ng start" },
+      { "id": 2, "text": "ng serve" },
+      { "id": 3, "text": "ng run-server" },
+      { "id": 4, "text": "angular serve" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 7,
+    "text": "What is an Angular component?",
+    "options": [
+      { "id": 1, "text": "A reusable UI building block" },
+      { "id": 2, "text": "A database table" },
+      { "id": 3, "text": "A server" },
+      { "id": 4, "text": "A CSS framework" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 8,
+    "text": "Which decorator is traditionally used to define an Angular component?",
+    "options": [
+      { "id": 1, "text": "@Component" },
+      { "id": 2, "text": "@Angular" },
+      { "id": 3, "text": "@UIComponent" },
+      { "id": 4, "text": "@View" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 9,
+    "text": "Which property of @Component defines the HTML template?",
+    "options": [
+      { "id": 1, "text": "style" },
+      { "id": 2, "text": "template" },
+      { "id": 3, "text": "html" },
+      { "id": 4, "text": "view" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 10,
+    "text": "Which property of @Component is used to specify CSS styles?",
+    "options": [
+      { "id": 1, "text": "styles" },
+      { "id": 2, "text": "css" },
+      { "id": 3, "text": "styleSheet" },
+      { "id": 4, "text": "design" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 11,
+    "text": "What is data binding in Angular?",
+    "options": [
+      { "id": 1, "text": "Connecting component data with the template" },
+      { "id": 2, "text": "Connecting only databases" },
+      { "id": 3, "text": "Connecting CSS files" },
+      { "id": 4, "text": "Connecting servers directly to HTML" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 12,
+    "text": "Which syntax is used for interpolation in Angular?",
+    "options": [
+      { "id": 1, "text": "{{ value }}" },
+      { "id": 2, "text": "[[ value ]]" },
+      { "id": 3, "text": "<% value %>" },
+      { "id": 4, "text": "${ value }" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 13,
+    "text": "Which syntax is used for property binding?",
+    "options": [
+      { "id": 1, "text": "(property)" },
+      { "id": 2, "text": "[property]" },
+      { "id": 3, "text": "{property}" },
+      { "id": 4, "text": "#property" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 14,
+    "text": "Which syntax is used for event binding?",
+    "options": [
+      { "id": 1, "text": "[event]" },
+      { "id": 2, "text": "{{event}}" },
+      { "id": 3, "text": "(event)" },
+      { "id": 4, "text": "{event}" }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "id": 15,
+    "text": "Which syntax is commonly used for two-way data binding?",
+    "options": [
+      { "id": 1, "text": "[()] " },
+      { "id": 2, "text": "{{}}" },
+      { "id": 3, "text": "[[]]" },
+      { "id": 4, "text": "()" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 16,
+    "text": "What is the name of Angular's two-way binding syntax?",
+    "options": [
+      { "id": 1, "text": "Banana in a box" },
+      { "id": 2, "text": "Box in a banana" },
+      { "id": 3, "text": "Double binding" },
+      { "id": 4, "text": "Two-way brackets" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 17,
+    "text": "Which directive is commonly used to conditionally display content in Angular templates?",
+    "options": [
+      { "id": 1, "text": "*ngIf" },
+      { "id": 2, "text": "*ngShow" },
+      { "id": 3, "text": "*if" },
+      { "id": 4, "text": "*display" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 18,
+    "text": "Which directive was traditionally used to repeat an element for each item in a collection?",
+    "options": [
+      { "id": 1, "text": "*ngFor" },
+      { "id": 2, "text": "*ngEach" },
+      { "id": 3, "text": "*for" },
+      { "id": 4, "text": "*repeat" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 19,
+    "text": "Which directive is commonly used to apply conditional CSS classes?",
+    "options": [
+      { "id": 1, "text": "ngClass" },
+      { "id": 2, "text": "ngStyleOnly" },
+      { "id": 3, "text": "cssClass" },
+      { "id": 4, "text": "classBind" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 20,
+    "text": "Which directive is commonly used to dynamically set inline styles?",
+    "options": [
+      { "id": 1, "text": "ngClass" },
+      { "id": 2, "text": "ngStyle" },
+      { "id": 3, "text": "styleBind" },
+      { "id": 4, "text": "cssStyle" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 21,
+    "text": "What is an Angular service?",
+    "options": [
+      { "id": 1, "text": "A class used to encapsulate reusable logic or data access" },
+      { "id": 2, "text": "A database" },
+      { "id": 3, "text": "An HTML element" },
+      { "id": 4, "text": "A CSS file" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 22,
+    "text": "Which decorator is commonly used to make a class injectable in Angular?",
+    "options": [
+      { "id": 1, "text": "@Injectable" },
+      { "id": 2, "text": "@Service" },
+      { "id": 3, "text": "@Provider" },
+      { "id": 4, "text": "@Dependency" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 23,
+    "text": "What is dependency injection in Angular?",
+    "options": [
+      { "id": 1, "text": "A mechanism for providing required dependencies to classes" },
+      { "id": 2, "text": "A database injection technique" },
+      { "id": 3, "text": "A CSS feature" },
+      { "id": 4, "text": "A routing protocol" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 24,
+    "text": "Which service is commonly used to make HTTP requests in Angular?",
+    "options": [
+      { "id": 1, "text": "HttpClient" },
+      { "id": 2, "text": "HttpService" },
+      { "id": 3, "text": "WebClient" },
+      { "id": 4, "text": "ApiClient" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 25,
+    "text": "Which Angular module traditionally provides HttpClient functionality?",
+    "options": [
+      { "id": 1, "text": "HttpModule" },
+      { "id": 2, "text": "HttpClientModule" },
+      { "id": 3, "text": "ApiModule" },
+      { "id": 4, "text": "NetworkModule" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 26,
+    "text": "What is Angular routing used for?",
+    "options": [
+      { "id": 1, "text": "Navigating between views or components in an application" },
+      { "id": 2, "text": "Connecting to a database" },
+      { "id": 3, "text": "Styling components" },
+      { "id": 4, "text": "Compiling TypeScript" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 27,
+    "text": "Which Angular service is commonly used for programmatic navigation?",
+    "options": [
+      { "id": 1, "text": "Router" },
+      { "id": 2, "text": "Navigator" },
+      { "id": 3, "text": "RouteService" },
+      { "id": 4, "text": "NavigationService" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 28,
+    "text": "What is a route parameter?",
+    "options": [
+      { "id": 1, "text": "A value embedded in a URL path" },
+      { "id": 2, "text": "A CSS variable" },
+      { "id": 3, "text": "A database column" },
+      { "id": 4, "text": "A component property only" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 29,
+    "text": "What is an Angular pipe?",
+    "options": [
+      { "id": 1, "text": "A feature used to transform data for display in templates" },
+      { "id": 2, "text": "A network connection" },
+      { "id": 3, "text": "A database connection" },
+      { "id": 4, "text": "A component lifecycle event" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 30,
+    "text": "Which pipe converts text to uppercase?",
+    "options": [
+      { "id": 1, "text": "upper" },
+      { "id": 2, "text": "uppercase" },
+      { "id": 3, "text": "upperCase" },
+      { "id": 4, "text": "toUpper" }
+    ],
+    "correctOptionId": 2
+  },
+  {
+    "id": 31,
+    "text": "Which pipe is commonly used to format dates?",
+    "options": [
+      { "id": 1, "text": "date" },
+      { "id": 2, "text": "datetime" },
+      { "id": 3, "text": "formatDate" },
+      { "id": 4, "text": "calendar" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 32,
+    "text": "What are lifecycle hooks in Angular?",
+    "options": [
+      { "id": 1, "text": "Methods called at specific stages of a component's lifecycle" },
+      { "id": 2, "text": "Database events" },
+      { "id": 3, "text": "CSS events" },
+      { "id": 4, "text": "Browser extensions" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 33,
+    "text": "Which lifecycle hook runs after Angular initializes component input properties?",
+    "options": [
+      { "id": 1, "text": "ngOnInit" },
+      { "id": 2, "text": "ngOnDestroy" },
+      { "id": 3, "text": "ngAfterDelete" },
+      { "id": 4, "text": "ngStart" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 34,
+    "text": "Which lifecycle hook is called before a component is destroyed?",
+    "options": [
+      { "id": 1, "text": "ngOnDestroy" },
+      { "id": 2, "text": "ngBeforeDestroy" },
+      { "id": 3, "text": "ngOnDelete" },
+      { "id": 4, "text": "ngDestroyComponent" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 35,
+    "text": "What is an Observable commonly used for in Angular?",
+    "options": [
+      { "id": 1, "text": "Handling asynchronous data streams" },
+      { "id": 2, "text": "Creating CSS styles" },
+      { "id": 3, "text": "Defining database tables" },
+      { "id": 4, "text": "Compiling HTML" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 36,
+    "text": "Which library provides Observable functionality commonly used by Angular?",
+    "options": [
+      { "id": 1, "text": "RxJS" },
+      { "id": 2, "text": "Lodash" },
+      { "id": 3, "text": "Express" },
+      { "id": 4, "text": "JQuery" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 37,
+    "text": "Which operator is commonly used to transform values emitted by an Observable?",
+    "options": [
+      { "id": 1, "text": "map" },
+      { "id": 2, "text": "transform" },
+      { "id": 3, "text": "change" },
+      { "id": 4, "text": "convert" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 38,
+    "text": "What is an Angular guard commonly used for?",
+    "options": [
+      { "id": 1, "text": "Controlling access to routes" },
+      { "id": 2, "text": "Styling routes" },
+      { "id": 3, "text": "Creating database tables" },
+      { "id": 4, "text": "Compiling TypeScript" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 39,
+    "text": "What is a route resolver used for?",
+    "options": [
+      { "id": 1, "text": "Loading required data before activating a route" },
+      { "id": 2, "text": "Creating CSS classes" },
+      { "id": 3, "text": "Deleting routes" },
+      { "id": 4, "text": "Creating components automatically" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 40,
+    "text": "What is a directive in Angular?",
+    "options": [
+      { "id": 1, "text": "A class that adds behavior or changes the appearance of elements" },
+      { "id": 2, "text": "A database schema" },
+      { "id": 3, "text": "A server configuration" },
+      { "id": 4, "text": "A TypeScript compiler" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 41,
+    "text": "Which directive is used to bind a CSS class conditionally?",
+    "options": [
+      { "id": 1, "text": "ngClass" },
+      { "id": 2, "text": "ngCss" },
+      { "id": 3, "text": "classIf" },
+      { "id": 4, "text": "cssIf" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 42,
+    "text": "What is a standalone component in modern Angular?",
+    "options": [
+      { "id": 1, "text": "A component that can be used without being declared in an NgModule" },
+      { "id": 2, "text": "A component that cannot use services" },
+      { "id": 3, "text": "A component without HTML" },
+      { "id": 4, "text": "A component that only works offline" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 43,
+    "text": "Which file commonly contains Angular application bootstrap configuration in modern Angular projects?",
+    "options": [
+      { "id": 1, "text": "main.ts" },
+      { "id": 2, "text": "index.cs" },
+      { "id": 3, "text": "bootstrap.html" },
+      { "id": 4, "text": "angular.main.json" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 44,
+    "text": "Which file commonly contains TypeScript configuration for an Angular project?",
+    "options": [
+      { "id": 1, "text": "tsconfig.json" },
+      { "id": 2, "text": "typescript.json" },
+      { "id": 3, "text": "angular.ts" },
+      { "id": 4, "text": "ts.config" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 45,
+    "text": "Which file contains dependencies and scripts for an Angular npm project?",
+    "options": [
+      { "id": 1, "text": "package.json" },
+      { "id": 2, "text": "angular.package" },
+      { "id": 3, "text": "dependencies.json" },
+      { "id": 4, "text": "npm.config" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 46,
+    "text": "What is Angular CLI primarily used for?",
+    "options": [
+      { "id": 1, "text": "Creating, developing, testing, and building Angular applications" },
+      { "id": 2, "text": "Managing SQL Server databases" },
+      { "id": 3, "text": "Writing C# code" },
+      { "id": 4, "text": "Hosting websites only" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 47,
+    "text": "Which command generates a new Angular component using Angular CLI?",
+    "options": [
+      { "id": 1, "text": "ng generate component name" },
+      { "id": 2, "text": "ng create component name" },
+      { "id": 3, "text": "ng add component name" },
+      { "id": 4, "text": "ng make component name" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 48,
+    "text": "Which command builds an Angular application for deployment?",
+    "options": [
+      { "id": 1, "text": "ng build" },
+      { "id": 2, "text": "ng deploy-build" },
+      { "id": 3, "text": "ng compile" },
+      { "id": 4, "text": "ng release" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 49,
+    "text": "What is a reactive form in Angular?",
+    "options": [
+      { "id": 1, "text": "A form model-driven approach using TypeScript classes" },
+      { "id": 2, "text": "A form that only uses HTML" },
+      { "id": 3, "text": "A form stored in a database" },
+      { "id": 4, "text": "A form created using CSS" }
+    ],
+    "correctOptionId": 1
+  },
+  {
+    "id": 50,
+    "text": "Which Angular class is commonly used to represent a group of controls in reactive forms?",
+    "options": [
+      { "id": 1, "text": "FormGroup" },
+      { "id": 2, "text": "FormCollection" },
+      { "id": 3, "text": "FormSet" },
+      { "id": 4, "text": "FormContainer" }
+    ],
+    "correctOptionId": 1
+  }
+]
