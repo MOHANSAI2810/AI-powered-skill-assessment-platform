@@ -1,0 +1,22 @@
+# ---------- .NET ----------
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# ---------- Secrets ----------
+.env
+*.env
+ca.pem
+*.pem
+
+# ---------- React / Node ----------
+node_modules/
+dist/
+.vite/
+*.local
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
