@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = "http://localhost:5195/api";
+const API_URL = "https://skill-assessment-api-kf8m.onrender.com/api";
 
 const subjects = [
   { id: "csharp", name: "C#" },
