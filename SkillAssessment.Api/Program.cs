@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SkillAssessment.Api.Data;
+using SkillAssessment.Api.Models;
+using SkillAssessment.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +9,7 @@ builder.Services.AddControllers();
 
 // ---------------------------------------------------------
 // Connection string resolution:
-//   1. Env vars (Aiven / Clever Cloud / any host)
+//   1. Env vars (Aiven / Render / SmarterASP / any host)
 //   2. Local dev → appsettings.json DefaultConnection
 // ---------------------------------------------------------
 
@@ -49,6 +51,26 @@ var serverVersion = new MySqlServerVersion(new Version(8, 0, 36));
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(connectionString, serverVersion));
 
+// ---------------------------------------------------------
+// AI summary service (Groq)
+// ---------------------------------------------------------
+
+var aiOptions = new AiOptions
+{
+    ApiKey  = Environment.GetEnvironmentVariable("GROQ_API_KEY") ?? "",
+    BaseUrl = Environment.GetEnvironmentVariable("AI_BASE_URL")
+                ?? "https://api.groq.com/openai/v1",
+    Model   = Environment.GetEnvironmentVariable("AI_MODEL")
+                ?? "llama-3.3-70b-versatile"
+};
+
+builder.Services.AddSingleton(aiOptions);
+builder.Services.AddHttpClient<AiSummaryService>();
+
+// ---------------------------------------------------------
+// CORS
+// ---------------------------------------------------------
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("ReactPolicy", policy =>
@@ -61,13 +83,18 @@ builder.Services.AddCors(options =>
 });
 
 // ---------------------------------------------------------
-// Bind to PORT (must be done BEFORE builder.Build()).
-// MonsterASP/Render/Clever Cloud inject PORT; locally it
-// defaults to 5195.
+// Listening URL
+// ---------------------------------------------------------
+// On Render/Docker, ASPNETCORE_URLS is set via the Dockerfile
+// ENV directive → we skip the fallback.
+// Locally, ASPNETCORE_URLS is not set → fall back to 5195.
 // ---------------------------------------------------------
 
-var port = Environment.GetEnvironmentVariable("PORT") ?? "5195";
-builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+if (string.IsNullOrEmpty(Environment.GetEnvironmentVariable("ASPNETCORE_URLS")))
+{
+    var port = Environment.GetEnvironmentVariable("PORT") ?? "5195";
+    builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+}
 
 var app = builder.Build();
 

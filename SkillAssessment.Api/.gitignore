@@ -10,6 +10,8 @@ obj/
 *.env
 ca.pem
 *.pem
+*.PublishSettings
+publish-test/
 
 # ---------- React / Node ----------
 node_modules/

@@ -4,6 +4,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Shared IIS hosting requires OutOfProcess to avoid pool conflicts -->
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+
     <!-- Force 64-bit architecture to match the IIS app pool -->
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
